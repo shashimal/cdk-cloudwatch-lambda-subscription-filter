@@ -2,7 +2,7 @@
 const zlib = require('zlib');
 const https = require('https');
 
-const slack_url = 'https://hooks.slack.com/services/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';
+const slack_url = 'https://hooks.slack.com/services/.......';
 const slack_req_opts = url.parse(slack_url);
 slack_req_opts.method = 'POST';
 slack_req_opts.headers = {'Content-Type': 'application/json'};
